@@ -1,7 +1,8 @@
 # PCB Format Board for CASE HAMMOND DS_1551M
 # 35mm x 35mm x 20mm
-# Draws the dimension lines and Holes
-
+# See http://www.hammondmfg.com/pdf/1551M.pdf for specifications
+# Draws the dimension lines and holes
+# Author: Sascha Juch, juch [at] gmx dot de
 
 Grid mm 0.01 100;
 Set Wire_Bend 0;

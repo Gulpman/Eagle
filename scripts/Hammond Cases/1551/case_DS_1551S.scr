@@ -1,0 +1,35 @@
+# PCB Format Board for CASE HAMMOND DS_1551S
+# 50mm x 50mm x 20mm
+# See http://www.hammondmfg.com/pdf/1551S.pdf for specifications
+# Draws the dimension lines and Holes
+# Author: Omega-5 at http://forum.fhem.de
+
+# settings to meets the used dimensions
+Grid mm 0.01 100;
+Set Wire_Bend 0;
+
+# PCB outline
+Layer Dimension;
+Wire 0  (0 6.25) (0 43);
+Arc CW 0 (0 43) (2 43) (1 44);
+Wire 0 (1 44)(37.75 44)(37.75 40.75);
+Arc CCW 0 (37.75 40.75)(43.75 40.75)(40.75 37.75);
+Wire 0 (40.75 37.75)(44 37.75);
+Wire 0 (44 37.75)(44 1);
+Arc CW 0 (44 1)(42 1)(43 0);
+Wire 0 (43 0)(6.25 0);
+Wire 0 (6.25 0)(6.25 3.25);
+Arc CCW 0 (6.25 3.25)(0.25 3.25)(3.25 6.25);
+Wire 0 (3.25 6.25)(0 6.25);
+
+# add mounting holes
+Hole 2.5 (34.5 2.75);
+Hole 2.5 (9.5 41.25);
+
+Layer Document;
+Change Size 2;
+Text 'DS_1551S' (8 1);
+
+Grid Last;
+Window Fit;
+
