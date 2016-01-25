@@ -2,7 +2,7 @@ Here you can find Eagle scripts, which will create the PCB boundaries for the po
 
 Just execute the correspondig script and it will draw the corners and holes for your favorite Hammond 1551 case.
 
-Thanks to Omeag-5 from http://forum.fhem.de for showing how to do this with scripts (instead of creating an eagle library for the Hammond 1551 cases) as well as contributing his scripts for the cases.
+Thanks to Omega-5 from http://forum.fhem.de for showing how to do this with scripts (instead of creating an eagle library for the Hammond 1551 cases) as well as contributing his scripts for the cases.
 
 This repository contains scripts to create the boundaries of the following Hammond 1551 cases:
 <ul>
