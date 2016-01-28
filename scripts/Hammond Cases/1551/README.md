@@ -18,6 +18,5 @@ This repository contains scripts to create the boundaries of the following Hammo
 <li>Hammond 1551H (60x35x20)</li>
 <li>Hammond 1551L (80x40x15)</li>
 <li>Hammond 1551K (80x40x20)</li>
-<li></li>
 </ul>
 
