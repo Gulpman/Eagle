@@ -8,8 +8,8 @@ This repository contains scripts to create the boundaries of the following Hammo
 <ul>
 <li>Hammond 1551N (35x35x15)</li>
 <li>Hammond 1551M (35x35x20)</li>
-<li>Hammond 1551Q (40x40x15) [to be done]</li>
-<li>Hammond 1551P (40x40x20) [to be done]</li>
+<li>Hammond 1551Q (40x40x15)</li>
+<li>Hammond 1551P (40x40x20)</li>
 <li>Hammond 1551F (50x35x15)</li>
 <li>Hammond 1551G (50x35x20)</li>
 <li>Hammond 1551S (50x50x15)</li>
